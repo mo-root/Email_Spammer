@@ -15,6 +15,6 @@ pip install secure-smtplib
 
 
 #Library
-[![N|Solid]([https://i0.wp.com/blogs.tensult.com/wp-content/uploads/2019/11/Spring-boot-rest-api.png?fit=1024%2C398&ssl=1](https://i.ytimg.com/vi/m6tDfvHF3B8/maxresdefault.jpg))](https://docs.python.org/3/library/smtplib.html)
+[![N|Solid]([https://i.ytimg.com/vi/m6tDfvHF3B8/maxresdefault.jpg])(https://docs.python.org/3/library/smtplib.html)
 
 
