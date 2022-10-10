@@ -15,6 +15,6 @@ pip install secure-smtplib
 
 
 #Library
-[![N|Solid]([https://i.ytimg.com/vi/m6tDfvHF3B8/maxresdefault.jpg])(https://docs.python.org/3/library/smtplib.html)
+[![N|Solid](https://i.ytimg.com/vi/m6tDfvHF3B8/maxresdefault.jpg)](https://docs.python.org/3/library/smtplib.html)
 
 
