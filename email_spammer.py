@@ -1,18 +1,21 @@
 import smtplib
 import time
+
 i=0
-
-
+email_login = str(input('enter your spam account email(your own email)'))
+email_password = str(input('enter your spam account password, you should use a generated password.'))
 spam = str(input('enter the email to spam: '))
-J = int(input('how many emails?'))
-while i < J:
+subject = str(input('enter the email subject: '))
+body = str(input('enter the email body: '))
+number_of_emails = int(input('how many emails?'))
+
+
+while i < number_of_emails:
 	with smtplib.SMTP('smtp.gmail.com',587) as smtp:
 		smtp.ehlo()
 		smtp.starttls()
 		smtp.ehlo()
-		smtp.login('ostaz.rod123@gmail.com','rodrodrod123')
-		subject = 'Please give us the free credits back'
-		body = 'I beg you please give the free credits back this is my favorite website and it had never let me down and I really need to use yor serivce;('
+		smtp.login(email_login, email_password)
 		msg = f'subject: {subject}\n\n{body}'
 		print(msg)
 		smtp.sendmail('',spam,msg)
